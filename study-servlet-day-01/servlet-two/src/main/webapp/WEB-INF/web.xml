@@ -1,0 +1,60 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app
+        xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+        version="4.0">
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:mysql://localhost:3306/mybatis</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>com.mihoya.StudyServlet.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getc</servlet-name>
+        <servlet-class>com.mihoya.StudyServlet.getContext</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getc</servlet-name>
+        <url-pattern>/getc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getparam</servlet-name>
+        <servlet-class>com.mihoya.StudyServlet.getParamServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getparam</servlet-name>
+        <url-pattern>/getparam</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getdis</servlet-name>
+        <servlet-class>com.mihoya.StudyServlet.getDisServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getdis</servlet-name>
+        <url-pattern>/getdis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getprop</servlet-name>
+        <servlet-class>com.mihoya.StudyServlet.getProper</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getprop</servlet-name>
+        <url-pattern>/getprop</url-pattern>
+    </servlet-mapping>
+
+<display-name>Archetype Created Web Application</display-name>
+</web-app>
