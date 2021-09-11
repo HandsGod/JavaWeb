@@ -12,6 +12,7 @@
         <module>servlet-one</module>
         <module>servlet-two</module>
         <module>response-study</module>
+        <module>request</module>
     </modules>
 
     <properties>

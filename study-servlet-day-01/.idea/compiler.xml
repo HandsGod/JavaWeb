@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="servlet-two" />
+        <module name="request" />
         <module name="servlet-one" />
         <module name="response-study" />
       </profile>
