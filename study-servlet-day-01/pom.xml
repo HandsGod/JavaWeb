@@ -13,6 +13,7 @@
         <module>servlet-two</module>
         <module>response-study</module>
         <module>request</module>
+        <module>CookieAndSession</module>
     </modules>
 
     <properties>
@@ -36,6 +37,15 @@
             <version>2.0</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.1</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
 </project>
