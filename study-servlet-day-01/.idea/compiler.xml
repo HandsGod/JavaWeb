@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="servlet-two" />
         <module name="request" />
+        <module name="javaweb-jsp" />
         <module name="CookieAndSession" />
         <module name="servlet-one" />
         <module name="response-study" />

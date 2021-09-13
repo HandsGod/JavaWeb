@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/CookieAndSession" />
+    <file type="web" url="file://$PROJECT_DIR$/javaweb-jsp" />
     <file type="web" url="file://$PROJECT_DIR$/request" />
     <file type="web" url="file://$PROJECT_DIR$/response-study" />
     <file type="web" url="file://$PROJECT_DIR$/servlet-one" />
