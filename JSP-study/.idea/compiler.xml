@@ -6,15 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="servlet-two" />
-        <module name="request" />
-        <module name="CookieAndSession" />
-        <module name="servlet-one" />
-        <module name="response-study" />
+        <module name="JSP-study" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="javaweb-jsp" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

@@ -14,7 +14,6 @@
         <module>response-study</module>
         <module>request</module>
         <module>CookieAndSession</module>
-        <module>javaweb-jsp</module>
     </modules>
 
     <properties>
